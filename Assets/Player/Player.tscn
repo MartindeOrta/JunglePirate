@@ -58,3 +58,9 @@ shape = SubResource( 2 )
 
 [node name="Jump" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 4 )
+
+[node name="RayCast" type="RayCast2D" parent="."]
+rotation = -1.5708
+enabled = true
+
+[node name="Particles" type="CPUParticles2D" parent="."]
