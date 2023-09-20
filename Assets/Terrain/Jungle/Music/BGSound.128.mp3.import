@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/BGSound.128.mp3-12a3b1073c5b986175006ef49dd67729.mp3str"
+
+[deps]
+
+source_file="res://Assets/Terrain/Jungle/Music/BGSound.128.mp3"
+dest_files=[ "res://.import/BGSound.128.mp3-12a3b1073c5b986175006ef49dd67729.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
