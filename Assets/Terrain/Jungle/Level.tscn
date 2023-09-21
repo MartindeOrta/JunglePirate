@@ -2010,12 +2010,12 @@ motion_mirroring = Vector2( 384, 0 )
 texture = ExtResource( 5 )
 centered = false
 
-[node name="Terrain" type="TileMap" parent="."]
+[node name="Terrain" type="TileMap" parent="." groups=["Wall"]]
 tile_set = ExtResource( 6 )
 cell_size = Vector2( 16, 16 )
 format = 1
 
-[node name="TileMap" type="TileMap" parent="Terrain"]
+[node name="TileMap" type="TileMap" parent="Terrain" groups=["Wall"]]
 tile_set = SubResource( 1 )
 cell_size = Vector2( 16, 16 )
 format = 1
